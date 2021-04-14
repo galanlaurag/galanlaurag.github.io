@@ -158,7 +158,7 @@ img {
 }
 
 .desc {
-  font-size: 1.3em !important;
+  font-size: 1.3vw;
 }
 .won {
   font-weight: bold;
