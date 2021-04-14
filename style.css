@@ -150,7 +150,7 @@ img {
 }
 .img_all {
   width: 17em;
-  margin-bottom: 3em;
+  margin-bottom: 5vw;
 }
 a:hover, a:focus, figure:hover, figure:focus {
   transform: scale(1.1);
