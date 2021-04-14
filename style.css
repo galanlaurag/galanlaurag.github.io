@@ -135,6 +135,7 @@ p {
   font-size: 2em;
   background-color: white;
   margin: 1em;
+  margin-top: 0.1em;
   padding: 0.1em;
   border: 0.1em solid;
   border-radius: .5em;
