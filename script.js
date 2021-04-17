@@ -1,5 +1,5 @@
 var btn = document.querySelector(".mode");
-var currentMode = localStorage.getItem("mode");
+var currentMode = sessionStorage.getItem("mode");
 
 
 if (currentMode == "dark") {
@@ -14,5 +14,5 @@ function myFunction() {
   if (document.body.classList.contains("dark-mode")) {
     mode = "dark";
   }
-  localStorage.setItem("mode", mode);
+  sessionStorage.setItem("mode", mode);
 }
