@@ -194,6 +194,10 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 .dark-mode .index_content {
   background-color: #153b36;
 }
+.dark-mode .index_body p {
+  background-color: #97b2af;
+  color: black;
+}
 
 .dark-mode .purple_body {
   background-color: #bcb7c4;
@@ -203,6 +207,10 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 }
 .dark-mode .purple_content {
   background-color: #413752;
+}
+.dark-mode .purple_body p {
+  background-color: #bcb7c4;
+  color: black;
 }
 
 .dark-mode .earth_body {
@@ -214,6 +222,10 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 .dark-mode .earth_content {
   background-color: #324932;
 }
+.dark-mode .earth_body p {
+  background-color: #b3bfb4;
+  color: black;
+}
 
 .dark-mode .odd_world_body {
   background-color: #acbec3;
@@ -224,6 +236,11 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 .dark-mode .odd_world_content {
   background-color: #1d4266;
 }
+.dark-mode .odd_world_body p {
+  background-color: #acbec3;
+  color: black;
+}
+
 .dark-mode #starve_img {
   filter: invert();
 }
