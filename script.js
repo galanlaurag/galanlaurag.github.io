@@ -13,27 +13,37 @@ function onload() {
 }
 //variables & functions for audio
 function playAudio() {
-  var audio = new Audio("https://raw.githubusercontent.com/galanlaurag/galanlaurag.github.io/main/sound/click.mp3");
+  var audio = new Audio("../sound/click.mp3");
+         audio.play();
+         audio.volume = 1;
+}
+function playAudioIndex() {
+  var audio = new Audio("sound/click.mp3");
          audio.play();
          audio.volume = 1;
 }
 function playAudio1() {
-  var audio1 = new Audio("https://raw.githubusercontent.com/galanlaurag/galanlaurag.github.io/main/sound/click1.mp3");
+  var audio1 = new Audio("../sound/click1.mp3");
+         audio1.play();
+         audio1.volume = 1;
+}
+function playAudio1Index() {
+  var audio1 = new Audio("sound/click1.mp3");
          audio1.play();
          audio1.volume = 1;
 }
 function playDeathAudio() {
-  var death_audio = new Audio("https://raw.githubusercontent.com/galanlaurag/galanlaurag.github.io/main/sound/death.mp3");
+  var death_audio = new Audio("../sound/death.mp3");
         death_audio.play();
         death_audio.volume = 1;
 }
 function playWinAudio() {
-  var win_audio = new Audio("https://raw.githubusercontent.com/galanlaurag/galanlaurag.github.io/main/sound/win.mp3");
+  var win_audio = new Audio("../sound/win.mp3");
         win_audio.play();
         win_audio.volume = 1;
 }
 function playPageAudio() {
-  var page_audio = new Audio("https://raw.githubusercontent.com/galanlaurag/galanlaurag.github.io/main/sound/page.mp3");
+  var page_audio = new Audio("../sound/page.mp3");
         page_audio.play();
         page_audio.volume = 1;
 }
