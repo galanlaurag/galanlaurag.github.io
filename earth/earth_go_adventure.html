@@ -9,19 +9,20 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="earth_body">
+    <body class="earth_body" onload="playPageAudio(); onload()">
       <header class="earth_header">
-        <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-        <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+        <a href="../home/index.html" onmouseenter="playAudio()" onclick="alert()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
+        <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
         <h1 class="header">Classic Earth - adventure</h1>
       </header>
       <main class="earth_content">
-        <p class="desc">This is so exciting! You are finally living a life from your dreams. At least until it's starting to get dark...</p>
-        <p class="desc">The sun went down almost completely, you are alone in the wild for the first time in your life. You are scared.</p>
-        <p class="desc">At the very last time you notice some kind of teleport, probably to the different world. You have decision to make - teleport yourself to the unknown, or stay in the potentially dangerouds wild world all alone?</p>
+        <p class="desc">This is so exciting! You are finally living a life from your dreams. At least until it's starting to get dark...<br>
+          The sun went down almost completely, you are alone in the wild for the first time in your life. You are terrified.<br>
+          At the very last time you was able to see anything in the dark woods, you notice some kind of a teleport - probably to the different world.
+          You have decision to make - teleport yourself to the even more unknown, or stay in the dangerouds, unsafe, wild earth all alone?</p>
 
-        <a href="../world/odd_world.html"><figure><img src="../images/teleport.png" alt="Teleport yourself"><figcaption>Teleport yourself</figcaption></figure></a>
-        <a href="earth_die_adventure.html"><figure><img src="../images/forest.png" alt="Stay here"><figcaption>Stay here</figcaption></figure></a>
+        <a href="../world/odd_world.html" onmouseenter="playAudio1()"><figure><img src="../images/teleport.png" alt="Teleport yourself"><figcaption>Teleport yourself</figcaption></figure></a>
+        <a href="earth_die_adventure.html" onmouseenter="playAudio1()"><figure><img src="../images/forest.png" alt="Stay here"><figcaption>Stay here</figcaption></figure></a>
       </main>
     </body>
   </html>
