@@ -9,17 +9,21 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="earth_body">
+    <body class="earth_body" onload="playDeathAudio(); onload()">
       <header class="earth_header">
-        <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-        <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+        <a href="../home/index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
+        <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
         <h1 class="header">Classic Earth - End</h1>
       </header>
       <main class="earth_content">
-        <img src="../images/death.png" alt="You died">
-        <p class="desc">Unfortunately, just after the sun went down, you were attacked by the crocodile and died.</p>
+        <img src="../images/death.png" alt="You died" class="img_death">
+        <p class="desc">It wasn't a calm night. You tried to climb the tree, but you didn't know how - it wasn't a skill you could learn staying in the hospital.
+          You could hear some misterious noises all around you that didn't let you sleep a wink.<br>
+          Unfortunately, within a short time, the noises became closer and you realised these are crocodiles who make it.
+          There were three of them - you'd have no way of escaping and surviving this... They attacked you and you can guess what happened next.</p>
 
         <p class="death">You didn't manage to survive in the Universe.</p>
+        <p class="comment">*Rememer that you can start over the game.</p>
       </main>
     </body>
   </html>
