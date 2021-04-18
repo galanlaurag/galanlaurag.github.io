@@ -9,17 +9,21 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="earth_body">
+    <body class="earth_body" onload="playWinAudio(); onload()">
       <header class="earth_header">
-        <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-        <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+        <a href="../home/index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
+        <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
         <h1 class="header">Classic Earth - Victory!</h1>
       </header>
       <main class="earth_content">
-        <img src="../images/win.png" alt="You won!">
-        <p class="desc">Part of your life you had in the hospital, experiencing the importance of doctors' and nurses' work, made you decide to become a doctor yourself.</p>
-        <p class="desc">You studied hard to become a midwife - you can meet newborn Earthlings everyday, just like you scared and curious about the world.</p>
+        <img src="../images/win.png" alt="You won!" class="img_win">
+        <p class="desc">Part of the life you spent in the hospital, experiencing the importance of doctors' and nurses' work, made you decide to become a doctor yourself.<br>
+          As a child and teenager you hated staying in the hospital, and now it became a place you eagerly visit everyday.
+          It gave you a purpose in your life.<br>
+          Your family is proud of you. You feel happy, fulfilled, relevant, and safe.</p>
+
         <p class="desc, won">You won a Universe Life!</p>
+        <p class="comment">*Rememer that you can start over the game.</p>
       </main>
     </body>
   </html>
