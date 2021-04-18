@@ -9,20 +9,22 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="purple_body">
+    <body class="purple_body" onload="playDeathAudio(); onload()">
         <header class="purple_header">
-          <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-          <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+          <a href="../home/index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" title="Go back to homepage"></a>
+          <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" title="Change mode">
           <h1 class="header">Purple Giant - End</h1>
         </header>
         <main class="purple_content">
-          <img src="../images/death.png" alt="You died">
-          <p class="desc">How could you choose this planet?</p>
-          <p class="desc">Didn't you see that there isn't even a LAND to live on?</p>
-          <p class="desc">There is only a hot mess of the air and other weird stuff, you die lol.</p>
+          <img src="../images/death.png" alt="You died" class="img_death">
+
+          <p class="desc">It wasn't the best choice. Living conditions on this planet are extremely limited, it is almost impossible for a human to survive here.
+            Unfortunately, you didn't manage to make it.<br>
+            Although the atmosphere on this planet is right for living creatures, the temperature is deadly cold to survive for a human.
+            Additionaly, you were born during the severe winter and your paren's couldn't help it in any way - you froze to death within few hours.</p>
 
           <p class="desc, death">You didn't manage to survive in the Universe.</p>
-          <p class="comment">*Rememer that you can start over the game.</p>
+          <p class="comment">*Rememer that you can start over the game and try another path.</p>
         </main>
     </body>
   </html>
