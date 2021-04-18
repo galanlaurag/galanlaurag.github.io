@@ -9,18 +9,21 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="earth_body">
+    <body class="earth_body" onload="playWinAudio(); onload()">
       <header class="earth_header">
-        <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-        <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+        <a href="../home/index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
+        <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
         <h1 class="header">Classic Earth - Victory!</h1>
       </header>
       <main class="earth_content">
-        <img src="../images/win.png" alt="You won!">
-        <p class="desc">Yes! It was the right herb! It healed you completely, you got back your strength.</p>
-        <p class="desc">You've had even more luck today. Staying in the forest at night alone could be dangerous, but you found a primitive tribe that let you join them.</p>
-        <p class="desc">From now on, you lead a happy life you always dreamed of - full of adventures and surrounded by friends.</p>
+        <img src="../images/win.png" alt="You won!" class="img_win">
+        <p class="desc">Yes! It was the right herb! It healed you completely, you got back your strength.<br>
+            You've had even more luck today. Staying in the forest at night alone could be dangerous, but you found a primitive tribe that let you join them.<br>
+            From now on, you lead a happy life you always dreamed of - full of adventures, free in the nature, and surrounded by close friends.
+            Also, you dont need to worry about the ongoing pandemic, as the tribe you joined has a wide range of knowledge about natural remedies so it doesn't affect you at all.</p>
+
         <p class="desc, won">You won a Universe Life!</p>
+        <p class="comment">*Rememer that you can start over the game.</p>
       </main>
     </body>
   </html>
