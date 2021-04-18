@@ -1,8 +1,3 @@
-.dark-mode {
-  background-color: black;
-  color: white;
-}
-
 html, body {
   margin: 0;
   height: 100%;
@@ -11,13 +6,13 @@ body {
   font-family: "Andale Mono", sans-serif;
   text-align: center;
   display: grid;
-  grid-template-rows: 8.5vw auto;
+  grid-template-rows: 10vw auto;
   grid-template-columns: 100%;
   grid-template-areas: "header" "content";
 }
 
 .index_body {
-  background-color: #153b36
+  background-color: #153b36;
 }
 .index_header {
   grid-area: header;
@@ -33,7 +28,6 @@ body {
   margin-left: 5vw;
   margin-right: 5vw;
 }
-
 
 .purple_body {
   background-color: #413752;
@@ -53,7 +47,6 @@ body {
   margin-right: 5vw;
 }
 
-
 .earth_body {
   background-color: #324932;
 }
@@ -71,7 +64,6 @@ body {
   margin-left: 5vw;
   margin-right: 5vw;
 }
-
 
 .odd_world_body {
   background-color: #1a344e;
@@ -104,13 +96,16 @@ header {
   flex: 0 0 auto;
   order: 1;
   margin-left: 5vw;
+  margin-top: 0.5vw;
 }
-.sound_img {
+.mode_img {
+  cursor: pointer;
   width: 3em;
   height: 3em;
   flex: 0 0 auto;
   order: 3;
   margin-right: 5vw;
+  margin-top: 0.5vw;
 }
 
 figure {
@@ -149,6 +144,13 @@ p {
 
 img {
   width: 13em;
+  margin-bottom: 0.5em;
+  animation: fadein 2s;
+}
+/* smooth appearance of images */
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 .giant {
   width: 16em;
@@ -157,21 +159,97 @@ img {
   width: 17em;
   margin-bottom: 5vw;
 }
-a:hover, a:focus, figure:hover, figure:focus {
+a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:focus {
+  /* filter: drop-shadow(2px 2px 5px #8f999a); */
   transform: scale(1.1);
-  filter: drop-shadow(2px 2px 5px #8f999a);
 }
 
 .comment {
   font-size: 1em;
   margin-left: 2em;
   margin-right: 2em;
+  background-color: #e1e1e1;
 }
 
 .desc {
   font-size: 1.3em;
 }
-.won {
+.won, .death {
   font-weight: bold;
+  background-color: #c7c6c8;
   font-size: 2em;
+}
+.won {
+  background-color: #fff4cc;
+}
+
+
+/* dark mode properties */
+.dark-mode .index_body {
+  background-color: #97b2af;
+}
+.dark-mode .index_header {
+  background-color: #97b2af;
+}
+.dark-mode .index_content {
+  background-color: #153b36;
+}
+
+.dark-mode .purple_body {
+  background-color: #bcb7c4;
+}
+.dark-mode .purple_header {
+  background-color: #bcb7c4;
+}
+.dark-mode .purple_content {
+  background-color: #413752;
+}
+
+.dark-mode .earth_body {
+  background-color: #b3bfb4;
+}
+.dark-mode .earth_header {
+  background-color: #b3bfb4;
+}
+.dark-mode .earth_content {
+  background-color: #324932;
+}
+
+.dark-mode .odd_world_body {
+  background-color: #acbec3;
+}
+.dark-mode .odd_world_header {
+  background-color: #acbec3;
+}
+.dark-mode .odd_world_content {
+  background-color: #1d4266;
+}
+.dark-mode #starve_img {
+  filter: invert();
+}
+
+.dark-mode .mode_img {
+  filter: invert(100%);
+}
+.dark-mode .home_img {
+  filter: invert(100%);
+}
+.dark-mode h1 {
+  color: black;
+}
+.dark-mode p {
+  background-color: #393939;
+  color: white;
+}
+.dark-mode .comment {
+  background-color: #575757;
+}
+.dark-mode figcaption {
+  color: white;
+}
+.dark-mode .death {
+  background-color: #535353;
+}
+.dark-mode .won {
+  background-color: #4e4c41;
 }
