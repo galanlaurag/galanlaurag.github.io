@@ -28,7 +28,7 @@ function playAudio1() {
          audio1.volume = 1;
 }
 function playAudio1Index() {
-  var audio1 = new Audio("sound/click1.mp3");
+  var audio1 = new Audio("sound/click1.wav");
          audio1.play();
          audio1.volume = 1;
 }
