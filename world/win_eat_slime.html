@@ -9,21 +9,26 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="odd_world_body">
+    <body class="odd_world_body" onload="playWinAudio(); onload()">
       <header class="odd_world_header">
-        <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-        <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+        <a href="../home/index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
+        <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
         <h1 class="header">Odd World - Victory!</h1>
       </header>
       <main class="odd_world_content">
-        <img src="../images/win.png" alt="You won!">
-        <p class="desc">Wow! Turned out this slime turns the lungs into the gills!</p>
-        <p class="desc">You can't breath any longer staying on the land, so you dive into this mistirious yellow water.
-        What you discovered under the water surface is even more surprising - all the live on this planet is just here.
+        <img src="../images/win.png" alt="You won!" class="img_win">
+
+        <p class="desc">Wow! Turned out this muddy weird slime turns the lungs into the gills!<br>
+        It was hard to breath before, but now it's impossible - you can't breath any longer staying on the land.
+        You dive into this mistirious yellow water.
+        What you discovered under the water surface is even more surprising - all the live on this planet is just here!
         There are many people like you, other living creatures, and plants.</p>
-        <p class="desc">You are welcomed extremely warmly and become a part of a family.</p>
+        <p class="desc">You are welcomed extremely warmly and become a part of a family.
+          It was just a test everyone coming on this planet experience - whether you are brave and motivated enough to survive.
+          You passed!</p>
 
         <p class="desc, won">You won a Universe Life!</p>
+        <p class="comment">*Rememer that you can start over the game and try another path.</p>
       </main>
     </body>
   </html>
