@@ -18,7 +18,7 @@ function playAudio() {
          audio.volume = 1;
 }
 function playAudioIndex() {
-  var audio = new Audio("sound/click.mp3");
+  var audio = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-unlock-game-notification-253.mp3");
          audio.play();
          audio.volume = 1;
 }
