@@ -9,15 +9,17 @@
       <script src="../script.js"></script>
 
     </head>
-    <body class="earth_body">
+    <body class="earth_body" onload="playDeathAudio(); onload()">
       <header class="earth_header">
-        <a href="../index.html"><img src="../images/home.png" alt="Go back to home page" class="home_img"></a>
-        <img src="../images/sound.png" alt="Manage sound" class="sound_img" onclick="manageSound()">
+        <a href="../home/index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
+        <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
         <h1 class="header">Classic Earth - End</h1>
       </header>
       <main class="earth_content">
-        <img src="../images/death.png" alt="You died">
-        <p class="desc">As you could expect, your condition got worse and eventually you died.</p>
+        <img src="../images/death.png" alt="You died" class="img_death">
+        <p class="desc">You chose risk - and the risk leaded to the death. As you could expect, your condition got worse and eventually, after few days of suffering, you died.<br>
+        Make matters worse, you brought a dangerous virus from the hospital, so your choice exposed not only you.
+        Your unfortunate decision ended up killing you, your whole family and few neighbours...</p>
 
         <p class="desc, death">You didn't manage to survive in the Universe.</p>
         <p class="comment">*Rememer that you can start over the game.</p>
