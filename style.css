@@ -181,11 +181,10 @@ img {
 }
 
 /* hover and focus */
-a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:focus, button:hover, button:focus {
+a:hover, a:focus, figure:hover, figure:focus, .mode_img:hover, .mode_img:focus, button:hover, button:focus {
   filter: drop-shadow(2px 2px 5px #8f999a);
   transform: scale(1.1);
 }
-
 
 /* media query for mobile devices */
  @media only screen and (max-width: 600px) {
@@ -270,11 +269,12 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 }
 
 .dark-mode .mode_img {
-  filter: invert(100%);
+  filter: invert();
 }
 .dark-mode .home_img {
-  filter: invert(100%);
+  filter: invert();
 }
+
 .dark-mode h1 {
   color: black;
 }
