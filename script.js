@@ -13,7 +13,7 @@ function onload() {
 }
 //variables & functions for audio
 function playAudio() {
-  var audio = new Audio("../sound/click.mp3");
+  var audio = new Audio("../sound/click.wav");
          audio.play();
          audio.volume = 1;
 }
@@ -24,7 +24,7 @@ function playAudioIndex() {
          audio.volume = 1;
 }
 function playAudio1() {
-  var audio1 = new Audio("../sound/click1.mp3");
+  var audio1 = new Audio("../sound/click1.wav");
          audio1.play();
          audio1.volume = 1;
 }
