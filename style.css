@@ -70,25 +70,6 @@ body {
   margin-left: 5vw;
   margin-right: 5vw;
 }
-/* media query for mobile devices */
-@media only screen and (max-width: 600px) {
-  .index_content {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .purple_content {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .earth_content {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .odd_world_content {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 
 header {
@@ -149,15 +130,15 @@ p {
   border-color: black;
 }
 
-img {
-  width: 13em;
-  margin-bottom: 0.5em;
-  animation: fadein 2s;
-}
 /* smooth appearance of images */
 @keyframes fadein {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+img {
+  width: 13em;
+  margin-bottom: 0.5em;
+  animation: fadein 2s;
 }
 .giant {
   width: 16em;
@@ -165,10 +146,6 @@ img {
 .img_all {
   width: 17em;
   margin-bottom: 5vw;
-}
-a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:focus {
-  /* filter: drop-shadow(2px 2px 5px #8f999a); */
-  transform: scale(1.1);
 }
 
 .comment {
@@ -188,6 +165,25 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 }
 .won {
   background-color: #fff4cc;
+}
+.button {
+  text-decoration: none;
+  text-align: center;
+  background-color: #e1e1e1;
+  border: 0.1em solid;
+  color: black;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-family: "Andale Mono", sans-serif;
+  border-radius: .5em;
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 5px #8f999a);
+}
+
+/* hover and focus */
+a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:focus, button:hover, button:focus {
+  filter: drop-shadow(2px 2px 5px #8f999a);
+  transform: scale(1.1);
 }
 
 
