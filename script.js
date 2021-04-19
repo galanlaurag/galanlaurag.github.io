@@ -11,6 +11,7 @@ function onload() {
     document.getElementsByTagName('html')[0].classList.toggle('dark-mode', !mode);
   }
 }
+
 //variables & functions for audio
 function playAudio() {
   var audio = new Audio("../sound/click.mp3");
@@ -20,7 +21,7 @@ function playAudio() {
 function playAudioIndex() {
   var audio = new Audio("sound/click.mp3");
          audio.play();
-         audio.volume = 1;
+         // audio.volume = 1;
 }
 function playAudio1() {
   var audio1 = new Audio("../sound/click1.mp3");
@@ -30,7 +31,7 @@ function playAudio1() {
 function playAudio1Index() {
   var audio1 = new Audio("sound/click1.mp3");
          audio1.play();
-         audio1.volume = 1;
+         // audio1.volume = 1;
 }
 function playDeathAudio() {
   var death_audio = new Audio("../sound/death.mp3");
