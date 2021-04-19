@@ -187,6 +187,27 @@ a:hover, a:focus, figure:hover, figure:focus, img.mode_img:hover, img.mode_img:f
 }
 
 
+/* media query for mobile devices */
+ @media only screen and (max-width: 600px) {
+   .index_content {
+     margin-left: 0;
+     margin-right: 0;
+   }
+   .purple_content {
+     margin-left: 0;
+     margin-right: 0;
+   }
+   .earth_content {
+     margin-left: 0;
+     margin-right: 0;
+   }
+   .odd_world_content {
+     margin-left: 0;
+     margin-right: 0;
+   }
+ }
+
+
 /* dark mode properties */
 .dark-mode .index_body {
   background-color: #97b2af;
