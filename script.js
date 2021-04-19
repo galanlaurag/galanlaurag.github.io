@@ -20,23 +20,23 @@ function playAudio() {
 function playAudioIndex() {
   var audio = new Audio("sound/click.mp3");
          audio.load();
-         audio.play();
+         audio.autoplay();
          audio.volume = 1;
 }
 function playAudio1() {
   var audio1 = new Audio("../sound/click1.wav");
-         audio1.play();
+         audio1.autoplay();
          audio1.volume = 1;
 }
 function playAudio1Index() {
   var audio1 = new Audio("sound/click1.mp3");
          audio1.load();
-         audio1.play();
+         audio1.autoplay();
          audio1.volume = 1;
 }
 function playDeathAudio() {
   var death_audio = new Audio("../sound/death.mp3");
-        death_audio.play();
+        death_audio.autoplay();
         death_audio.volume = 1;
 }
 function playWinAudio() {
