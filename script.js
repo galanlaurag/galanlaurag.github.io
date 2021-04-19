@@ -13,30 +13,28 @@ function onload() {
 }
 //variables & functions for audio
 function playAudio() {
-  var audio = new Audio("../sound/click.wav");
+  var audio = new Audio("../sound/click.mp3");
          audio.play();
          audio.volume = 1;
 }
 function playAudioIndex() {
   var audio = new Audio("sound/click.mp3");
-         audio.load();
-         audio.autoplay();
+         audio.play();
          audio.volume = 1;
 }
 function playAudio1() {
-  var audio1 = new Audio("../sound/click1.wav");
-         audio1.autoplay();
+  var audio1 = new Audio("../sound/click1.mp3");
+         audio1.play();
          audio1.volume = 1;
 }
 function playAudio1Index() {
   var audio1 = new Audio("sound/click1.mp3");
-         audio1.load();
-         audio1.autoplay();
+         audio1.play();
          audio1.volume = 1;
 }
 function playDeathAudio() {
   var death_audio = new Audio("../sound/death.mp3");
-        death_audio.autoplay();
+        death_audio.play();
         death_audio.volume = 1;
 }
 function playWinAudio() {
