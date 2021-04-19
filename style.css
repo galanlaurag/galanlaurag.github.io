@@ -5,22 +5,16 @@ html, body {
 body {
   font-family: "Andale Mono", sans-serif;
   text-align: center;
-  display: grid;
-  grid-template-rows: 10vw auto;
-  grid-template-columns: 100%;
-  grid-template-areas: "header" "content";
 }
 
 .index_body {
   background-color: #153b36;
 }
 .index_header {
-  grid-area: header;
   color: white;
   background-color: #153b36;
 }
 .index_content {
-  grid-area: content;
   background-color: #97b2af;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -33,12 +27,10 @@ body {
   background-color: #413752;
 }
 .purple_header {
-  grid-area: header;
   color: white;
   background-color: #413752;
 }
 .purple_content {
-  grid-area: content;
   background-color: #bcb7c4;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -51,12 +43,10 @@ body {
   background-color: #324932;
 }
 .earth_header {
-  grid-area: header;
   color: white;
   background-color: #324932;
 }
 .earth_content {
-  grid-area: content;
   background-color: #b3bfb4;
   padding-top: 2em;
   padding-bottom: 2em;
@@ -69,12 +59,10 @@ body {
   background-color: #1a344e;
 }
 .odd_world_header {
-  grid-area: header;
   color: white;
   background-color: #1a344e;
 }
 .odd_world_content {
-  grid-area: content;
   background-color: #acbec3;
   padding-top: 1em;
   padding-bottom: 2em;
