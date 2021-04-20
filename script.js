@@ -1,5 +1,6 @@
 
 //functions for managing modes
+//modified code from: https://stackoverflow.com/questions/63635300/html-local-storage-dark-mode-using-javascript
 function onload() {
   document.getElementsByTagName('html')[0].classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
   document.querySelector(".mode_img").addEventListener('click', manageMode);
