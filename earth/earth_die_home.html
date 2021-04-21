@@ -5,11 +5,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=0.7">
       <title>Classic Earth</title>
 
+      <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="../images/favicon-152.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16.png">
+
       <link rel="stylesheet" href="../style.css">
       <script src="../script.js"></script>
 
     </head>
-    <body class="earth_body" onload="playDeathAudio(); onload()">
+    <body class="earth_body animate" onload="playDeathAudio(); onload()">
       <header class="earth_header">
         <a href="../index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
         <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
@@ -17,9 +21,9 @@
       </header>
       <main class="earth_content">
         <img src="../images/death.png" alt="You died" class="img_death">
-        <p class="desc">You chose risk - and the risk leaded to the death. As you could expect, your condition got worse and eventually, after few days of suffering, you died.<br>
-        Make matters worse, you brought a dangerous virus from the hospital, so your choice exposed not only you.
-        Your unfortunate decision ended up killing you, your whole family and few neighbours...</p>
+        <p class="desc">You chose risk - and the risk led to death. As you could expect, your condition got worse and eventually, after few days of suffering, you died.<br>
+        To make matters worse, you brought a dangerous virus from the hospital, so your choice exposed not only you.
+        Your unfortunate decision ended up killing you, your whole family and several neighbours...</p>
 
         <p class="desc, death">You didn't manage to survive in the Universe.</p>
         <button class="button" type="button" onclick="document.location='../index.html'">Try another path</button>
