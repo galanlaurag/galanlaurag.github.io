@@ -138,6 +138,9 @@ p {
 img {
   width: 13em;
   margin-bottom: 0.5em;
+  animation: fadein 3s;
+}
+.animate {
   animation: fadein 2s;
 }
 .giant {
@@ -209,10 +212,10 @@ a:hover, a:focus, figure:hover, figure:focus, .mode_img:hover, .mode_img:focus, 
 
 /* dark mode properties */
 .dark-mode .index_body {
-  background-color: #97b2af;
+  background-color: #6c807e;
 }
 .dark-mode .index_header {
-  background-color: #97b2af;
+  background-color: #6c807e;
 }
 .dark-mode .index_content {
   background-color: #153b36;
@@ -223,10 +226,10 @@ a:hover, a:focus, figure:hover, figure:focus, .mode_img:hover, .mode_img:focus, 
 }
 
 .dark-mode .purple_body {
-  background-color: #bcb7c4;
+  background-color: #706d74;
 }
 .dark-mode .purple_header {
-  background-color: #bcb7c4;
+  background-color: #706d74;
 }
 .dark-mode .purple_content {
   background-color: #413752;
@@ -237,10 +240,10 @@ a:hover, a:focus, figure:hover, figure:focus, .mode_img:hover, .mode_img:focus, 
 }
 
 .dark-mode .earth_body {
-  background-color: #b3bfb4;
+  background-color: #667367;
 }
 .dark-mode .earth_header {
-  background-color: #b3bfb4;
+  background-color: #667367;
 }
 .dark-mode .earth_content {
   background-color: #324932;
@@ -251,10 +254,10 @@ a:hover, a:focus, figure:hover, figure:focus, .mode_img:hover, .mode_img:focus, 
 }
 
 .dark-mode .odd_world_body {
-  background-color: #acbec3;
+  background-color: #65797e;
 }
 .dark-mode .odd_world_header {
-  background-color: #acbec3;
+  background-color: #65797e;
 }
 .dark-mode .odd_world_content {
   background-color: #1d4266;
