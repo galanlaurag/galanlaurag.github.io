@@ -5,11 +5,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=0.7">
       <title>Odd World</title>
 
+      <link rel="apple-touch-icon" type="image/png" sizes="153x152" href="../images/faviconworld-152.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../images/faviconworld-32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../images/faviconworld-16.png">
+
       <link rel="stylesheet" href="../style.css">
       <script src="../script.js"></script>
 
     </head>
-    <body class="odd_world_body" onload="playDeathAudio(); onload()">
+    <body class="odd_world_body animate" onload="playDeathAudio(); onload()">
       <header class="odd_world_header">
         <a href="../index.html" onmouseenter="playAudio()"><img src="../images/home.png" alt="Go back to home page" class="home_img" data-toggle="tooltip" data-placement="bottom" title="Go back to homepage"></a>
         <img src="../images/mode.png" alt="Manage mode" class="mode_img" onmouseenter="playAudio()" data-toggle="tooltip" data-placement="bottom" title="Change mode">
@@ -19,7 +23,7 @@
         <img src="../images/death.png" alt="You died" class="img_death">
 
         <p class="desc">Well - as you could expect according to your choice - you died of starvation on this Odd World.
-        It wasn't the best adventure you could experience, huh?</p>
+        It wasn't the best adventure you could experience in the Universe, huh?</p>
 
         <p class="desc, death">You didn't manage to survive in the Universe.</p>
         <button class="button" type="button" onclick="document.location='../index.html'">Try another path</button>
