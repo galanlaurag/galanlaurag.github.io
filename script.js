@@ -46,6 +46,7 @@ function playPageAudio() {
 //alert function when user wants to go back to homepage
 function alert() {
     if (confirm("Are you sure you want to go back to the homepage? You will loose the chance to experience the outcome of this story!")) {
+      document.getElementsByTagName("a")[0].href = "../index.html";
     } else {
       document.getElementsByTagName("a")[0].removeAttribute("href");
     }
